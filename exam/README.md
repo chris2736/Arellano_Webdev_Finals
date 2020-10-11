@@ -1,6 +1,6 @@
 What is your COVID-19 web app name?
 
-Covid19workOUT
+WorkOUTCovid19
 
 What is your motivation?
 
