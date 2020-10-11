@@ -1,6 +1,10 @@
 What is your COVID-19 web app name?
 
+Covid19workOUT
+
 What is your motivation?
+
+"My motivation is doing something out of your comfort zone, that will become an output of your work in the future, when you practice things that will do good on you today even if its hard, one day you will hone it passionately that will give you an experience and knowledge to it."
 
 Link to your Sitemap, Wireframe, and Video Pitch
 
@@ -8,6 +12,7 @@ https://classroom.google.com/u/0/c/MTIxODUxMTA4MjYx/a/MTI2NzMwMzU2ODk3/details
 https://classroom.google.com/u/0/c/MTIxODUxMTA4MjYx/a/MTI2NzI2ODY0MTMx/details
 
 What are the web tools you used to create your web app?
+
 The tools that I used is Codepen and Github only, also youtube for some tutorials and Ideas too.
 
 Discuss what you learned in this (a) COVID-19 web app project and (b) Web Development 1 Course/Subject. 
