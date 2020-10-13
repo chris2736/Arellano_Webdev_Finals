@@ -1,0 +1,320 @@
+<!DOCTYPE html>
+<head>
+	
+	<title>Instagram</title>
+        <link rel="stylesheet" href="css/style.css" type="text/css">
+        <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css" integrity="sha384-MCw98/SFnGE8fJT3GXwEOngsV7Zt27NXFoaoApmYm81iuXoPkFOJwJ8ERdknLPMO" crossorigin="anonymous">
+        <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.4.1/css/all.css" integrity="sha384-5sAR7xN1Nv6T6+dT2mhtzEpVJvfS3NScPQTrOxhwjIuvcA67KV2R5Jz6kr4abQsz" crossorigin="anonymous">
+        <link href="/your-path-to-fontawesome/css/fontawesome.css" rel="stylesheet">
+  <link href="/your-path-to-fontawesome/css/brands.css" rel="stylesheet">
+  <link href="/your-path-to-fontawesome/css/solid.css" rel="stylesheet">
+
+    </head>
+<body>
+ <nav class="navbar navbar-light sticky-top bg-light">
+        <a class="navbar-brand" href="#"><img src="https://upload.wikimedia.org/wikipedia/commons/thumb/2/2a/Instagram_logo.svg/1200px-Instagram_logo.svg.png" width="150px"></a>
+    <form class="form-inline">
+      <input class="form-control mr-sm-2" type="search" placeholder="Search" aria-label="Search">
+    </form>
+            <ul class="nav ">
+                <li class="nav-item">
+                    <i class="fas fa-home fa-1x"></i>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<i class="far fa-paper-plane fa-1x"></i>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+					<i class="far fa-compass fa-1x"></i>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<i class="far fa-heart fa-1x"></i>&nbsp;&nbsp;&nbsp;
+                </li>
+                <li class="nav-item dropdown">
+                     <a class="nav-link dropdown-toggle" data-toggle="dropdown" href="#" role="button" aria-haspopup="true" aria-expanded="false"><img src = "https://i.postimg.cc/15XQ37BM/114320515-2560710707577086-2774387847125617530-o.jpg"
+					 class="icon3"></i></a>
+                   <div class="dropdown-menu dropdown-menu-right">
+                        <a class="dropdown-item" href="#">Action</a>
+                        <a class="dropdown-item" href="#">Another action</a>
+                        <a class="dropdown-item" href="#">Something else here</a>
+                        <div class="dropdown-divider"></div>
+                        <a class="dropdown-item" href="#">Log Out</a>
+                    </div>
+                </li>
+            </ul>
+        </nav>
+	<!--- Modal Begin -->
+		<div class="modal fade" id="exampleModal" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel" aria-hidden="true">
+          <div class="modal-dialog modal-lg" role="document">
+            <div class="modal-content">
+              <div class="modal-body ">
+                  <textarea class="form-control" aria-label="With textarea"></textarea>
+            
+                  <i class="fas fa-camera-retro p-1 border rounded mt-1" ></i>
+                  <i class="fas fa-map-marker-alt p-1 border rounded mt-1" ></i>
+              </div>
+              <div class="modal-footer">
+                <button type="button" class="btn btn-secondary btn-sm" data-dismiss="modal">Cancel</button>
+                <button type="button" class="btn btn-success btn-sm">Publish</button>
+              </div>
+            </div>
+          </div>
+        </div> 
+		
+		 <div class="container-fluid ">
+          <!-- Nav pills -->
+            <ul class="nav nav-pills justify-content-center mt-4" role="tablist">
+                <li class="nav-item">
+                    <a class="nav-link" data-toggle="pill" href="#home"><i class="fa fa-square" aria-hidden="true"></i></a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" data-toggle="pill" href="#menu2"><i class="fa fa-th" aria-hidden="true"></i></a>
+                </li>
+				<button type="button" class="btn btn-primary ml-auto p-2" data-toggle="modal" data-target="#exampleModal">Create a new post</button>
+    
+            </ul>
+			
+			 <!-- Tab panes -->
+              <div class="tab-content">
+                <div id="home" class="container-fluid tab-pane active "><br>
+                    <div class="row justify-content-center">
+                        <div class="">
+                            
+                       
+                            <div class="card mx-auto custom-card" id="prova">
+                             
+								<img class = "card-img" src = "https://i.postimg.cc/HkbPYbqB/120125679-755960791852864-2464078359399210379-n.jpg" alt = "Card image cap">
+								<div class="card-body px-3">
+									<h5 class="card-title"><i class="far fa-heart fa-lg"></i>&nbsp;&nbsp;&nbsp;<i class="far fa-comment fa-lg"></i>&nbsp;&nbsp;&nbsp;<i class="far fa-paper-plane fa-lg"></i></h5>
+									 <h5 class="card-title">592 Likes</h5>
+									  <p class="card-text">Short Spin 🚴</p>
+                                </div>
+								<div class="row post-header px-3 pb-3">
+								    <div class="col-10 float-left text-left">Comment...</div>
+                                    <div class="col-1 float-right text-right"><i class="fa fa-ellipsis-v" aria-hidden="true"></i></div>
+                                </div>       
+                            </div>
+						 
+						 <div class="card mx-auto custom-card mt-3" id="prova">
+                              
+                             
+								<img class = "card-img" src = "https://i.postimg.cc/4xXF3YXG/44031572-10210188703272349-6554755336538947584-o.jpg">
+								<div class="card-body px-3">
+									<h5 class="card-title"><i class="far fa-heart fa-lg"></i>&nbsp;&nbsp;&nbsp;<i class="far fa-comment fa-lg"></i>&nbsp;&nbsp;&nbsp;<i class="far fa-paper-plane fa-lg"></i></h5>
+									<h5 class="card-title">309 likes</h5>
+                                    <p class="card-text">BSIT 1A 2018-2019 P.E Day 🏆</p>
+                                </div>
+								<div class="row post-header px-3 pb-3">
+								    <div class="col-10 float-left text-left">Comment...</div>
+                                    <div class="col-1 float-right text-right"><i class="fa fa-ellipsis-v" aria-hidden="true"></i></div>
+                                </div>     
+                            </div>
+							
+							<div class="card mx-auto custom-card mt-3" id="prova">
+                                
+                             
+								<img class = "card-img" src = "https://i.postimg.cc/cLKtwmxB/49323231-2124846111163550-1215388969248751616-n.jpg">
+								<div class="card-body px-3">
+									<h5 class="card-title"><i class="far fa-heart fa-lg"></i>&nbsp;&nbsp;&nbsp;<i class="far fa-comment fa-lg"></i>&nbsp;&nbsp;&nbsp;<i class="far fa-paper-plane fa-lg"></i></h5>
+                                    <h5 class="card-title">105 likes</h5>
+                                    <p class="card-text">60km Ride!! 🚴 🚴 🚴 🚴 </p>
+                                </div>
+								<div class="row post-header px-3 pb-3">
+								    <div class="col-10 float-left text-left">Comment...</div>
+                                    <div class="col-1 float-right text-right"><i class="fa fa-ellipsis-v" aria-hidden="true"></i></div>
+                                </div>       
+                            </div>
+							
+							
+							
+							<div class="card mx-auto custom-card mt-3" id="prova">
+
+								<img class = "card-img" src = "https://i.postimg.cc/0NYQ0XLD/49800243-2026429660739330-7898803912314978304-n.jpg">
+								<div class="card-body px-3">
+									<h5 class="card-title"><i class="far fa-heart fa-lg"></i>&nbsp;&nbsp;&nbsp;<i class="far fa-comment fa-lg"></i>&nbsp;&nbsp;&nbsp;<i class="far fa-paper-plane fa-lg"></i></h5>
+                  <h5 class="card-title">402 likes</5>
+                                    <p class="card-text">Ilocos Norte escapade with Fam 🗺 </p>
+                                </div>
+								<div class="row post-header px-3 pb-3">
+								    <div class="col-10 float-left text-left">Comment...</div>
+                                    <div class="col-1 float-right text-right"><i class="fa fa-ellipsis-v" aria-hidden="true"></i></div>
+                                </div>    
+                            </div>
+							
+							<div class="card mx-auto custom-card mt-3" id="prova">
+                              
+								<img class = "card-img" src = "https://i.postimg.cc/Y2YHGmBL/48419999-1960393614050718-7059807820845154304-n.jpg" alt = "Card image cap">
+								<div class="card-body px-3">
+									<h5 class="card-title"><i class="far fa-heart fa-lg"></i>&nbsp;&nbsp;&nbsp;<i class="far fa-comment fa-lg"></i>&nbsp;&nbsp;&nbsp;<i class="far fa-paper-plane fa-lg"></i></h5>
+                  <h5 class="card-title">492 likes </5>
+                  <p class="card-text">Christmas with Family Mapanao 🎄☃️</p>
+                                </div>
+								<div class="row post-header px-3 pb-3">
+								    <div class="col-10 float-left text-left">Comment...</div>
+                                    <div class="col-1 float-right text-right"><i class="fa fa-ellipsis-v" aria-hidden="true"></i></div>
+                                </div>           
+                            </div>
+							
+							<div class="card mx-auto custom-card mt-3" id="prova">
+                                
+                             
+								<img class = "card-img" src = "https://i.postimg.cc/3NKnx6HB/70310717-2449291935152682-977873884755787776-n.jpg">
+								<div class="card-body px-3">
+									<h5 class="card-title"><i class="far fa-heart fa-lg"></i>&nbsp;&nbsp;&nbsp;<i class="far fa-comment fa-lg"></i>&nbsp;&nbsp;&nbsp;<i class="far fa-paper-plane fa-lg"></i></h5>
+                  <h5 class="card-title">671 likes </5>
+                  <p class="card-text">Team Eneeee!! </p>
+                                </div>
+								<div class="row post-header px-3 pb-3">
+								    <div class="col-10 float-left text-left">Comment...</div>
+                                    <div class="col-1 float-right text-right"><i class="fa fa-ellipsis-v" aria-hidden="true"></i></div>
+                                </div>       
+                            </div>
+							
+							
+							
+							<div class="card mx-auto custom-card mt-3" id="prova">
+                                
+                             
+								<img class = "card-img" src = "https://i.postimg.cc/PJQ5nSWY/49515778-2026430220739274-551673615569911808-n.jpg">
+								<div class="card-body px-3">
+								<h5 class="card-title"><i class="far fa-heart fa-lg"></i>&nbsp;&nbsp;&nbsp;<i class="far fa-comment fa-lg"></i>&nbsp;&nbsp;&nbsp;<i class="far fa-paper-plane fa-lg"></i></h5>
+                  <h5 class="card-title">189 likes </5>
+                  <p class="card-text">Kuyas</p>
+                                </div>
+								<div class="row post-header px-3 pb-3">
+								    <div class="col-10 float-left text-left">Comment...</div>
+                                    <div class="col-1 float-right text-right"><i class="fa fa-ellipsis-v" aria-hidden="true"></i></div>
+                                </div>      
+                            </div>
+							
+							
+							
+							<div class="card mx-auto custom-card mt-3" id="prova">
+                               
+                             
+								<img class = "card-img" src = "https://i.postimg.cc/858v1n60/48270684-2108144582833703-6381297112285446144-o.jpg">
+								<div class="card-body px-3">
+								
+									<h5 class="card-title"><i class="far fa-heart fa-lg"></i>&nbsp;&nbsp;&nbsp;<i class="far fa-comment fa-lg"></i>&nbsp;&nbsp;&nbsp;<i class="far fa-paper-plane fa-lg"></i></h5>
+                  <h5 class="card-title">959 likes </5>
+                  <p class="card-text">Beach side of Florida, char lang haha </p>
+                                </div>
+								<div class="row post-header px-3 pb-3">
+								    <div class="col-10 float-left text-left">Comment...</div>
+                                    <div class="col-1 float-right text-right"><i class="fa fa-ellipsis-v" aria-hidden="true"></i></div>
+                                </div>      
+                            </div>
+							
+							<div class="card mx-auto custom-card mt-3" id="prova">
+
+								<img class = "card-img" src = "https://i.postimg.cc/d0ZWHpFH/36931660-10211874179230505-4916154085377310720-o.jpg">
+								<div class="card-body px-3">
+								<h5 class="card-title"><i class="far fa-heart fa-lg"></i>&nbsp;&nbsp;&nbsp;<i class="far fa-comment fa-lg"></i>&nbsp;&nbsp;&nbsp;<i class="far fa-paper-plane fa-lg"></i></h5>
+                  <h5 class="card-title">204 likes </5>
+                  <p class="card-text">Good Morning! 🌞</p>
+                                </div>
+								<div class="row post-header px-3 pb-3">
+								    <div class="col-10 float-left text-left">Comment...</div>
+                                    <div class="col-1 float-right text-right"><i class="fa fa-ellipsis-v" aria-hidden="true"></i></div>
+                                </div>        
+                            </div>
+							
+							<div class="card mx-auto custom-card mt-3" id="prova">
+                                
+                             
+								<img class = "card-img" src = "https://i.postimg.cc/pLhYRjSy/42654696-888406808022704-5143754495565496320-n.jpg">
+								<div class="card-body px-3">
+								<h5 class="card-title"><i class="far fa-heart fa-lg"></i>&nbsp;&nbsp;&nbsp;<i class="far fa-comment fa-lg"></i>&nbsp;&nbsp;&nbsp;<i class="far fa-paper-plane fa-lg"></i></h5>
+                  <h5 class="card-title">579 like </5>
+                                    <p class="card-text">Future IT experts, Computer Engineers, Web developer etc. 👨🏼‍💻 👩🏼‍💻
+                                </div>
+								<div class="row post-header px-3 pb-3">
+								    <div class="col-10 float-left text-left">Comment...</div>
+                                    <div class="col-1 float-right text-right"><i class="fa fa-ellipsis-v" aria-hidden="true"></i></div>
+                                </div>       
+                            </div>
+							
+							<div class="card mx-auto custom-card mt-3" id="prova">
+                                
+                             
+								<img class = "card-img" src = "https://i.postimg.cc/Y0vjY6YW/50112134-2026429777405985-312478034928074752-n.jpg">
+								<div class="card-body px-3">
+								
+								<h5 class="card-title"><i class="far fa-heart fa-lg"></i>&nbsp;&nbsp;&nbsp;<i class="far fa-comment fa-lg"></i>&nbsp;&nbsp;&nbsp;<i class="far fa-paper-plane fa-lg"></i></h5>
+                  <h5 class="card-title">482 likes </5>
+                  <p class="card-text">NEXT GEN </p>
+                                </div>
+								<div class="row post-header px-3 pb-3">
+								    <div class="col-10 float-left text-left">Comment...</div>
+                                    <div class="col-1 float-right text-right"><i class="fa fa-ellipsis-v" aria-hidden="true"></i></div>
+                                </div>       
+                            </div>
+							
+							<div class="card mx-auto custom-card mt-3" id="prova">
+                                
+                             
+								<img class = "card-img" src = "https://i.postimg.cc/gJn6HbPj/7e1ff1e1e0b1ff5a2fdc814eb8c37235.jpg">
+								<div class="card-body px-3">
+								<h5 class="card-title"><i class="far fa-heart fa-lg"></i>&nbsp;&nbsp;&nbsp;<i class="far fa-comment fa-lg"></i>&nbsp;&nbsp;&nbsp;<i class="far fa-paper-plane fa-lg"></i></h5>
+                  <h5 class="card-title">282 </5>
+                  <p class="card-text">Thank you for scrolling all the way down, thumbs up for you </p>
+                                </div>
+								<div class="row post-header px-3 pb-3">
+								    <div class="col-10 float-left text-left">Comment...</div>
+                                    <div class="col-1 float-right text-right"><i class="fa fa-ellipsis-v" aria-hidden="true"></i></div>
+                                </div>        
+                            </div>
+						 
+						 </div>
+                    </div>    
+                </div>
+				
+				<div id="menu2" class="container-fluid tab-pane fade"><br>
+                    <div class="row ">
+					<div class="col-md-4 col-sm-6 px-1 my-1 "> 
+						<img src = "https://i.postimg.cc/HkbPYbqB/120125679-755960791852864-2464078359399210379-n.jpg" alt="Card image cap" width="100%" height="350px">
+                        </div>
+						<div class="col-md-4 col-sm-6 px-1 my-1 ">
+						<img src = "https://i.postimg.cc/4xXF3YXG/44031572-10210188703272349-6554755336538947584-o.jpg" alt="Card image cap" width="100%" height="350px">
+                        </div>
+						<div class="col-md-4 col-sm-6 px-1 my-1 ">
+						<img src = "https://i.postimg.cc/cLKtwmxB/49323231-2124846111163550-1215388969248751616-n.jpg
+
+" width="100%" height="350px">
+                        </div>
+						
+						<div class="col-md-4 col-sm-6 px-1 my-1 ">
+						<img src = "https://i.postimg.cc/0NYQ0XLD/49800243-2026429660739330-7898803912314978304-n.jpg" width="100%" height="350px">
+                        </div>
+						<div class="col-md-4 col-sm-6 px-1 my-1 ">
+						<img src = "https://i.postimg.cc/Y2YHGmBL/48419999-1960393614050718-7059807820845154304-n.jpg" width="100%" height="350px">
+                        </div>
+						<div class="col-md-4 col-sm-6 px-1 my-1 ">
+						<img src = "https://i.postimg.cc/3NKnx6HB/70310717-2449291935152682-977873884755787776-n.jpg" width="100%" height="350px">
+                        </div>
+						
+						<div class="col-md-4 col-sm-6 px-1 my-1 ">
+						<img src = "https://i.postimg.cc/PJQ5nSWY/49515778-2026430220739274-551673615569911808-n.jpg" width="100%" height="350px">
+                        </div>
+						<div class="col-md-4 col-sm-6 px-1 my-1 ">
+						<img src = https://i.postimg.cc/858v1n60/48270684-2108144582833703-6381297112285446144-o.jpg" width="100%" height="350px">
+                        </div>
+						 <div class="col-md-4 col-sm-6 px-1 my-1 ">
+								<img src = "https://i.postimg.cc/d0ZWHpFH/36931660-10211874179230505-4916154085377310720-o.jpg" width="100%" height="350px">
+
+                        </div>
+						 <div class="col-md-4 col-sm-6 px-1 my-1 ">
+						<img src = https://i.postimg.cc/pLhYRjSy/42654696-888406808022704-5143754495565496320-n.jpg" width="100%" height="350px">
+                        </div>
+						<div class="col-md-4 col-sm-6 px-1 my-1 ">
+						<img src = "https://i.postimg.cc/Y0vjY6YW/50112134-2026429777405985-312478034928074752-n.jpg
+
+" width="100%" height="350px">
+                        </div>
+						<div class="col-md-4 col-sm-6 px-1 my-1 ">
+						<img src = "https://i.postimg.cc/gJn6HbPj/7e1ff1e1e0b1ff5a2fdc814eb8c37235.jpg
+
+" width="100%" height="350px">
+                        </div>
+						
+						 </div>
+                </div>
+            </div>
+        </div>
+        <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.3/umd/popper.min.js" integrity="sha384-ZMP7rVo3mIykV+2+9J3UJ46jBk0WLaUAdn689aCwoqbBJiSnjAK/l8WvCWPIPm49" crossorigin="anonymous"></script>
+        <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/js/bootstrap.min.js" integrity="sha384-ChfqqxuZUCnJSK3+MXmPNIyE6ZbWh2IMqE241rYiqJxyMiZ6OW/JmZQ5stwEULTy" crossorigin="anonymous"></script>
+
+</body>
+</html>
